@@ -3,7 +3,7 @@ import React from "react";
 export class Menu extends React.Component {
     constructor(props) {
         super(props);
-        this.hanldeClick = this.handleClick.bind(this);
+        this.handleClick = this.handleClick.bind(this);
     }
 
     handleClick(e) {
@@ -13,7 +13,7 @@ export class Menu extends React.Component {
 
     render() {
         return (
-        <form onClick={this.hanldeClick}>
+        <form onClick={this.handleClick}>
             <input type="radio" name="src" value="fast" /> fast
             <input type="radio" name="src" value="slow" /> slow
             <input type="radio" name="src" value="cute" /> cute
